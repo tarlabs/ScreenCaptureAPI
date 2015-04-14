@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DOCUMENT type="Advanced Installer" CreateVersion="6.2" version="6.2" modules="enterprise" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiPropsComponent">
+    <ROW Property="AI_MINDOTNETVERSION" MultiBuildValue="DefaultBuild:1.0" ValueLocId="-"/>
+    <ROW Property="AI_MINRAM" MultiBuildValue="DefaultBuild:256" ValueLocId="-"/>
+    <ROW Property="ALLUSERS" Value="2"/>
+    <ROW Property="ARPCOMMENTS" Value="Setup/Installation for KnowledgeInbox Screen Capture" ValueLocId="*"/>
+    <ROW Property="ARPURLINFOABOUT" Value="http://www.knowledgeinbox.com/documents/screencapture.html"/>
+    <ROW Property="BannerBitmap" Value="style25_banner.jpg" Type="1"/>
+    <ROW Property="DialogBitmap" Value="style25_dialog.jpg" Type="1"/>
+    <ROW Property="Manufacturer" Value="KnowledgeInbox" ValueLocId="*"/>
+    <ROW Property="ProductCode" Value="1033:{339F3096-6ACA-4AC1-8EB3-5C0A5A7FD4E9} "/>
+    <ROW Property="ProductLanguage" Value="1033"/>
+    <ROW Property="ProductName" Value="ScreenCapture API" ValueLocId="*"/>
+    <ROW Property="ProductVersion" Value="1.0.0"/>
+    <ROW Property="SecureCustomProperties" Value="OLDPRODUCTS;AI_NEWERPRODUCTFOUND"/>
+    <ROW Property="UpgradeCode" Value="{1D5240BE-F54C-43A3-9C4C-34F3784D0123}"/>
+    <ROW Property="WindowsFamily9X" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDirsComponent">
+    <ROW Directory="APPDIR" Directory_Parent="TARGETDIR" DefaultDir="APPDIR:." IsPseudoRoot="1"/>
+    <ROW Directory="KnowlegdeInbox_DIR" Directory_Parent="ProgramMenuFolder" DefaultDir="Knowle~2|[|Manufacturer]"/>
+    <ROW Directory="ProgramMenuFolder" Directory_Parent="TARGETDIR" DefaultDir="Progra~2|ProgramMenuFolder" IsPseudoRoot="1"/>
+    <ROW Directory="Samples_1_DIR" Directory_Parent="ScreenCapture_DIR" DefaultDir="Samples"/>
+    <ROW Directory="Samples_DIR" Directory_Parent="APPDIR" DefaultDir="Samples"/>
+    <ROW Directory="ScreenCapture_DIR" Directory_Parent="KnowlegdeInbox_DIR" DefaultDir="Screen~2|[|ProductName]"/>
+    <ROW Directory="TARGETDIR" DefaultDir="SourceDir"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCompsComponent">
+    <ROW Component="Capture_and_combine_images_into_one.vbs" ComponentId="{B81D8471-9551-469B-B7C7-455DE1611983}" Directory_="Samples_DIR" Attributes="0" KeyPath="Capture_and_combine_images_into_one.vbs"/>
+    <ROW Component="Capture_and_copy_image_to_clipboard.vbs" ComponentId="{F07692A5-CC58-443A-8ECF-1CEC5143FB1B}" Directory_="Samples_DIR" Attributes="0" KeyPath="Capture_and_copy_image_to_clipboard.vbs"/>
+    <ROW Component="Capture_rectangular_area_of_a_desktop.vbs" ComponentId="{1FA19C35-74BB-4B4A-9177-FF8F40F2DD20}" Directory_="Samples_DIR" Attributes="0" KeyPath="Capture_rectangular_area_of_a_desktop.vbs"/>
+    <ROW Component="Capturing_IE_web_page_with_frames.vbs" ComponentId="{29EFB325-2797-446D-B638-374096852A7A}" Directory_="Samples_DIR" Attributes="0" KeyPath="Capturing_IE_web_page_with_frames.vbs" Type="0"/>
+    <ROW Component="Capturing_IE_web_page_with_scrolling.vbs" ComponentId="{9A53E820-4735-416F-9246-4CACA390E5CC}" Directory_="Samples_DIR" Attributes="0" KeyPath="Capturing_IE_web_page_with_scrolling.vbs"/>
+    <ROW Component="Capturing_IE_web_page_with_specific_object.vbs" ComponentId="{0F71C7DB-B2F9-4570-9074-2A16AB02CEC3}" Directory_="Samples_DIR" Attributes="0" KeyPath="Capturing_IE_web_page_with_specific_object.vbs"/>
+    <ROW Component="Capturing_all_open_notepad_windows.vbs" ComponentId="{69E7F6C8-444B-4C2E-9096-FC4A75832135}" Directory_="Samples_DIR" Attributes="0" KeyPath="Capturing_all_open_notepad_windows.vbs"/>
+    <ROW Component="Capturing_currently_active_window.vbs" ComponentId="{0D9AF027-263D-4F20-B356-5B9B17312A05}" Directory_="Samples_DIR" Attributes="0" KeyPath="Capturing_currently_active_window.vbs"/>
+    <ROW Component="Capturing_the_Desktop_Image.vbs" ComponentId="{F56C70C1-9B70-488E-892D-E574720F158C}" Directory_="Samples_DIR" Attributes="0" KeyPath="Capturing_the_Desktop_Image.vbs"/>
+    <ROW Component="Compare_two_images.vbs" ComponentId="{3767D746-610B-44E7-9B80-2CFDBF2EE267}" Directory_="Samples_DIR" Attributes="0" KeyPath="Compare_two_images.vbs"/>
+    <ROW Component="Convert_image_from_one_format_to_another.vbs" ComponentId="{2211743B-E33B-4993-BC12-FF348E80492E}" Directory_="Samples_DIR" Attributes="0" KeyPath="Convert_image_from_one_format_to_another.vbs"/>
+    <ROW Component="Create_a_new_bitmap_with_text.vbs" ComponentId="{E7D5D610-0947-42CC-A200-200733849346}" Directory_="Samples_DIR" Attributes="0" KeyPath="Create_a_new_bitmap_with_text.vbs"/>
+    <ROW Component="Enumerate_frames_document_on_a_web_page.vbs" ComponentId="{2871C0B2-A441-42A4-A6A8-E5CEA22759E9}" Directory_="Samples_DIR" Attributes="0" KeyPath="Enumerate_frames_document_on_a_web_page.vbs"/>
+    <ROW Component="Get_current_cursor_position.vbs" ComponentId="{341F9B74-75CE-4DB9-A3F5-F36BEB26C4F3}" Directory_="Samples_DIR" Attributes="0" KeyPath="Get_current_cursor_position.vbs"/>
+    <ROW Component="Getting_IE_object_from_any_property.vbs" ComponentId="{7B24E526-0BF7-4607-8B44-8C36FF0AC876}" Directory_="Samples_DIR" Attributes="0" KeyPath="Getting_IE_object_from_any_property.vbs"/>
+    <ROW Component="Getting_IE_object_from_window_handle.vbs" ComponentId="{6952888E-BF78-427E-9A8B-B90647028C5A}" Directory_="Samples_DIR" Attributes="0" KeyPath="Getting_IE_object_from_window_handle.vbs"/>
+    <ROW Component="Install.vbs" ComponentId="{35625CD1-FBD4-4FB5-89A4-7DFFD10C8C2E}" Directory_="APPDIR" Attributes="0" KeyPath="Install.vbs" Type="0"/>
+    <ROW Component="KnowledgeInbox.ScreenCapture.dll" ComponentId="{3A9E81AA-9772-4E71-BD23-02818B4C7262}" Directory_="APPDIR" Attributes="0" KeyPath="KnowledgeInbox.ScreenCapture.dll"/>
+    <ROW Component="ProgID" ComponentId="{F57E1473-C035-424D-9E64-BC17C65764F0}" Directory_="APPDIR" Attributes="4" KeyPath="ProgID"/>
+    <ROW Component="ProgID_1" ComponentId="{AC3B39BB-E684-4EC1-8441-F709B29CFA20}" Directory_="APPDIR" Attributes="4" KeyPath="ProgID_1"/>
+    <ROW Component="Samples" ComponentId="{AA183449-4BDA-4B7D-956F-941CFB7BBA7D}" Directory_="Samples_1_DIR" Attributes="0"/>
+    <ROW Component="Saving_an_image_at_a_user_selected_location.vbs" ComponentId="{B70E8644-1B25-404B-BFF8-3AE2DE3D241A}" Directory_="Samples_DIR" Attributes="0" KeyPath="Saving_an_image_at_a_user_selected_location.vbs"/>
+    <ROW Component="ScreenCapture" ComponentId="{D2F99E2D-8A8A-44C6-8454-70BADFFB3A7D}" Directory_="ScreenCapture_DIR" Attributes="0"/>
+    <ROW Component="ScreenCapture.chm" ComponentId="{C1C3ECDB-F9E3-40EA-94B4-BA98ED115FF3}" Directory_="APPDIR" Attributes="0" KeyPath="ScreenCapture.chm" Type="1"/>
+    <ROW Component="UIName" ComponentId="{F8335DE6-96E0-492F-9CF0-06C890001DF8}" Directory_="APPDIR" Attributes="4" KeyPath="UIName"/>
+    <ROW Component="UIName_1" ComponentId="{88596639-EB63-4EBE-87BE-77B0619BA3A3}" Directory_="APPDIR" Attributes="4" KeyPath="UIName_1"/>
+    <ROW Component="VisibleMode" ComponentId="{8E8F7E76-E814-43E7-8F07-1439EA41B713}" Directory_="APPDIR" Attributes="4" KeyPath="VisibleMode"/>
+    <ROW Component="VisibleMode_1" ComponentId="{7694A72C-2E43-41CB-9FBF-52E5226DF67B}" Directory_="APPDIR" Attributes="4" KeyPath="VisibleMode_1"/>
+    <ROW Component="eula.rtf" ComponentId="{BFC1DEBA-48F5-4C94-90DC-CE154BF108DB}" Directory_="APPDIR" Attributes="0" KeyPath="eula.rtf" Type="0"/>
+    <ROW Component="interopshdocvw.dll" ComponentId="{98BBC56B-7ECA-4D3A-8444-81D8BAA0B859}" Directory_="APPDIR" Attributes="0" KeyPath="interopshdocvw.dll"/>
+    <ROW Component="olelib.dll" ComponentId="{0DF26DFF-4B31-4BCB-9CCD-2237C4F640F6}" Directory_="APPDIR" Attributes="0" KeyPath="olelib.dll"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatsComponent">
+    <ROW Feature="Feature" Title="Samples" Description="Description" Display="5" Level="1" Directory_="APPDIR" Attributes="0" Components="Capture_and_combine_images_into_one.vbs Install.vbs KnowledgeInbox.ScreenCapture.dll Capture_and_copy_image_to_clipboard.vbs Capture_rectangular_area_of_a_desktop.vbs Capturing_all_open_notepad_windows.vbs Capturing_currently_active_window.vbs Capturing_IE_web_page_with_scrolling.vbs Capturing_the_Desktop_Image.vbs Compare_two_images.vbs Convert_image_from_one_format_to_another.vbs Create_a_new_bitmap_with_text.vbs Get_current_cursor_position.vbs Getting_IE_object_from_window_handle.vbs Saving_an_image_at_a_user_selected_location.vbs interopshdocvw.dll olelib.dll Capturing_IE_web_page_with_frames.vbs Getting_IE_object_from_any_property.vbs Samples Capturing_IE_web_page_with_specific_object.vbs Enumerate_frames_document_on_a_web_page.vbs"/>
+    <ROW Feature="MainFeature" Title="MainFeature" Description="Description" Display="3" Level="1" Directory_="APPDIR" Attributes="0" Components="ScreenCapture.chm ScreenCapture ProgID_1 UIName_1 VisibleMode_1 ProgID UIName VisibleMode eula.rtf"/>
+    <ATTRIBUTE name="CurrentFeature" value="Feature"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFilesComponent">
+    <ROW File="Capture_and_combine_images_into_one.vbs" Component_="Capture_and_combine_images_into_one.vbs" FileName="Captur~1.vbs|Capture and combine images into one.vbs" Attributes="0" SourcePath="Installation\Samples\Capture and combine images into one.vbs" SelfReg="false" Sequence="1"/>
+    <ROW File="Capture_and_copy_image_to_clipboard.vbs" Component_="Capture_and_copy_image_to_clipboard.vbs" FileName="Captur~2.vbs|Capture and copy image to clipboard.vbs" Attributes="0" SourcePath="Installation\Samples\Capture and copy image to clipboard.vbs" SelfReg="false" Sequence="2"/>
+    <ROW File="Capture_rectangular_area_of_a_desktop.vbs" Component_="Capture_rectangular_area_of_a_desktop.vbs" FileName="Captur~3.vbs|Capture rectangular area of a desktop.vbs" Attributes="0" SourcePath="Installation\Samples\Capture rectangular area of a desktop.vbs" SelfReg="false" Sequence="3"/>
+    <ROW File="Capturing_IE_web_page_with_frames.vbs" Component_="Capturing_IE_web_page_with_frames.vbs" FileName="Captur~8.vbs|Capturing IE web page with frames.vbs" Attributes="0" SourcePath="Installation\Samples\Capturing IE web page with frames.vbs" SelfReg="false" Sequence="20"/>
+    <ROW File="Capturing_IE_web_page_with_scrolling.vbs" Component_="Capturing_IE_web_page_with_scrolling.vbs" FileName="Captur~6.vbs|Capturing IE web page with scrolling.vbs" Attributes="0" SourcePath="Installation\Samples\Capturing IE web page with scrolling.vbs" SelfReg="false" Sequence="6"/>
+    <ROW File="Capturing_IE_web_page_with_specific_object.vbs" Component_="Capturing_IE_web_page_with_specific_object.vbs" FileName="Captur~9.vbs|Capturing IE web page with specific object.vbs" Attributes="0" SourcePath="Installation\Samples\Capturing IE web page with specific object.vbs" SelfReg="false" Sequence="21"/>
+    <ROW File="Capturing_all_open_notepad_windows.vbs" Component_="Capturing_all_open_notepad_windows.vbs" FileName="Captur~4.vbs|Capturing all open notepad windows.vbs" Attributes="0" SourcePath="Installation\Samples\Capturing all open notepad windows.vbs" SelfReg="false" Sequence="4"/>
+    <ROW File="Capturing_currently_active_window.vbs" Component_="Capturing_currently_active_window.vbs" FileName="Captur~5.vbs|Capturing currently active window.vbs" Attributes="0" SourcePath="Installation\Samples\Capturing currently active window.vbs" SelfReg="false" Sequence="5"/>
+    <ROW File="Capturing_the_Desktop_Image.vbs" Component_="Capturing_the_Desktop_Image.vbs" FileName="Captur~7.vbs|Capturing the Desktop Image.vbs" Attributes="0" SourcePath="Installation\Samples\Capturing the Desktop Image.vbs" SelfReg="false" Sequence="7"/>
+    <ROW File="Compare_two_images.vbs" Component_="Compare_two_images.vbs" FileName="Compar~1.vbs|Compare two images.vbs" Attributes="0" SourcePath="Installation\Samples\Compare two images.vbs" SelfReg="false" Sequence="8"/>
+    <ROW File="Convert_image_from_one_format_to_another.vbs" Component_="Convert_image_from_one_format_to_another.vbs" FileName="Conver~1.vbs|Convert image from one format to another.vbs" Attributes="0" SourcePath="Installation\Samples\Convert image from one format to another.vbs" SelfReg="false" Sequence="9"/>
+    <ROW File="Create_a_new_bitmap_with_text.vbs" Component_="Create_a_new_bitmap_with_text.vbs" FileName="Create~1.vbs|Create a new bitmap with text.vbs" Attributes="0" SourcePath="Installation\Samples\Create a new bitmap with text.vbs" SelfReg="false" Sequence="10"/>
+    <ROW File="Enumerate_frames_document_on_a_web_page.vbs" Component_="Enumerate_frames_document_on_a_web_page.vbs" FileName="Enumer~1.vbs|Enumerate frames document on a web page.vbs" Attributes="0" SourcePath="Installation\Samples\Enumerate frames document on a web page.vbs" SelfReg="false" Sequence="22"/>
+    <ROW File="Get_current_cursor_position.vbs" Component_="Get_current_cursor_position.vbs" FileName="Getcur~1.vbs|Get current cursor position.vbs" Attributes="0" SourcePath="Installation\Samples\Get current cursor position.vbs" SelfReg="false" Sequence="11"/>
+    <ROW File="Getting_IE_object_from_any_property.vbs" Component_="Getting_IE_object_from_any_property.vbs" FileName="Gettin~2.vbs|Getting IE object from any property.vbs" Attributes="0" SourcePath="Installation\Samples\Getting IE object from any property.vbs" SelfReg="false" Sequence="23"/>
+    <ROW File="Getting_IE_object_from_window_handle.vbs" Component_="Getting_IE_object_from_window_handle.vbs" FileName="Gettin~1.vbs|Getting IE object from window handle.vbs" Attributes="0" SourcePath="Installation\Samples\Getting IE object from window handle.vbs" SelfReg="false" Sequence="12"/>
+    <ROW File="Install.vbs" Component_="Install.vbs" FileName="Install.vbs" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Installation\Install.vbs" SelfReg="false" Sequence="16"/>
+    <ROW File="KnowledgeInbox.ScreenCapture.dll" Component_="KnowledgeInbox.ScreenCapture.dll" FileName="Knowle~1.dll|KnowledgeInbox.ScreenCapture.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Installation\KnowledgeInbox.ScreenCapture.dll" SelfReg="dotNetComInterop" Sequence="17"/>
+    <ROW File="Saving_an_image_at_a_user_selected_location.vbs" Component_="Saving_an_image_at_a_user_selected_location.vbs" FileName="Saving~1.vbs|Saving an image at a user selected location.vbs" Attributes="0" SourcePath="Installation\Samples\Saving an image at a user selected location.vbs" SelfReg="false" Sequence="13"/>
+    <ROW File="ScreenCapture.chm" Component_="ScreenCapture.chm" FileName="Screen~1.chm|ScreenCapture.chm" Version="65535.65535.65535.65535" Attributes="0" SourcePath="Installation\ScreenCapture.chm" SelfReg="false" Sequence="14"/>
+    <ROW File="eula.rtf" Component_="eula.rtf" FileName="eula.rtf" Attributes="0" SourcePath="Installation\eula.rtf" SelfReg="false" Sequence="15"/>
+    <ROW File="interopshdocvw.dll" Component_="interopshdocvw.dll" FileName="intero~1.dll|interopshdocvw.dll" Attributes="0" SourcePath="Installation\interopshdocvw.dll" SelfReg="false" Sequence="18"/>
+    <ROW File="olelib.dll" Component_="olelib.dll" FileName="olelib.dll" Attributes="0" SourcePath="Installation\olelib.dll" SelfReg="false" Sequence="19"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BuildComponent">
+    <ROW BuildKey="DefaultBuild" BuildName="DefaultBuild" BuildOrder="1" BuildType="0" InstallationType="4" CreateMd5="true"/>
+    <ATTRIBUTE name="CurrentBuild" value="DefaultBuild"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.DictionaryComponent">
+    <ROW Path="&lt;ui.ail&gt;"/>
+    <ROW Path="&lt;ui_en.ail&gt;"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.FragmentComponent">
+    <ROW Fragment="FolderDlg.aip" Path="&lt;FolderDlg.aip&gt;"/>
+    <ROW Fragment="LicenseAgreementDlg.aip" Path="&lt;LicenseAgreementDlg.aip&gt;"/>
+    <ROW Fragment="StaticUIStrings.aip" Path="&lt;StaticUIStrings.aip&gt;"/>
+    <ROW Fragment="UI.aip" Path="&lt;UI.aip&gt;"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiAppSearchComponent">
+    <ROW Property="AI_DOTNET10_SEARCH" Signature_="AI_DotNet10SearchSgn" Builds="DefaultBuild"/>
+    <ROW Property="AI_DOTNET11_SEARCH" Signature_="AI_DotNet11SearchSgn" Builds="DefaultBuild"/>
+    <ROW Property="AI_DOTNET20_SEARCH" Signature_="AI_DotNet20SearchSgn" Builds="DefaultBuild"/>
+    <ROW Property="AI_DOTNET30_SEARCH" Signature_="AI_DotNet30SearchSgn" Builds="DefaultBuild"/>
+    <ROW Property="AI_DOTNET35_SEARCH" Signature_="AI_DotNet35SearchSgn" Builds="DefaultBuild"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiAssemblyComponent">
+    <ROW Component_="KnowledgeInbox.ScreenCapture.dll" Feature_="Feature" File_Application="KnowledgeInbox.ScreenCapture.dll" Attributes="0"/>
+    <ROW Component_="interopshdocvw.dll" Feature_="Feature" File_Application="interopshdocvw.dll" Attributes="0"/>
+    <ROW Component_="olelib.dll" Feature_="Feature" File_Application="olelib.dll" Attributes="0"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiAssemblyNameComponent">
+    <ROW Component_="KnowledgeInbox.ScreenCapture.dll" Name="Name" Value="KnowledgeInbox.ScreenCapture"/>
+    <ROW Component_="KnowledgeInbox.ScreenCapture.dll" Name="Culture" Value="neutral"/>
+    <ROW Component_="KnowledgeInbox.ScreenCapture.dll" Name="Version" Value="1.0.0.0"/>
+    <ROW Component_="KnowledgeInbox.ScreenCapture.dll" Name="PublicKeyToken" Value="f1bcbf040f55c99d"/>
+    <ROW Component_="KnowledgeInbox.ScreenCapture.dll" Name="ProcessorArchitecture" Value="MSIL"/>
+    <ROW Component_="interopshdocvw.dll" Name="Name" Value="interopshdocvw"/>
+    <ROW Component_="interopshdocvw.dll" Name="Culture" Value="neutral"/>
+    <ROW Component_="interopshdocvw.dll" Name="Version" Value="1.1.0.0"/>
+    <ROW Component_="interopshdocvw.dll" Name="PublicKeyToken" Value="f1bcbf040f55c99d"/>
+    <ROW Component_="interopshdocvw.dll" Name="ProcessorArchitecture" Value="MSIL"/>
+    <ROW Component_="olelib.dll" Name="Name" Value="olelib"/>
+    <ROW Component_="olelib.dll" Name="Culture" Value="neutral"/>
+    <ROW Component_="olelib.dll" Name="Version" Value="1.81.0.0"/>
+    <ROW Component_="olelib.dll" Name="PublicKeyToken" Value="f1bcbf040f55c99d"/>
+    <ROW Component_="olelib.dll" Name="ProcessorArchitecture" Value="MSIL"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiBinaryComponent">
+    <ROW Name="UnInstall.vbs" SourcePath="Installation\UnInstall.vbs"/>
+    <ROW Name="aicustact.dll" SourcePath="&lt;aicustact.dll&gt;"/>
+    <ROW Name="style25_banner.jpg" SourcePath="&lt;style25_banner.jpg&gt;"/>
+    <ROW Name="style25_dialog.jpg" SourcePath="&lt;style25_dialog.jpg&gt;"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlComponent">
+    <ROW Dialog_="LicenseAgreementDlg" Control="BannerBitmap" Type="Bitmap" X="0" Y="0" Width="370" Height="44" Attributes="1" Text="[BannerBitmap]" Control_Next="AgreementText" MsiKey="LicenseAgreementDlg#BannerBitmap"/>
+    <ROW Dialog_="LicenseAgreementDlg" Control="AgreementText" Type="FileScrollableText" X="20" Y="60" Width="330" Height="120" Attributes="7" Text="Installation\eula.rtf" Control_Next="Buttons" TextLocId="Control.Text.LicenseAgreementDlg#AgreementText"/>
+    <ATTRIBUTE name="FixedSizeBitmaps" value="0"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="FolderDlg" Control_="Back" Event="NewDialog" Argument="LicenseAgreementDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="WelcomeDlg" Control_="Next" Event="NewDialog" Argument="LicenseAgreementDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="FolderDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="FolderDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_INSTALL" Ordering="3"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceWelcomeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="MaintenanceWelcomeDlg" Control_="Next" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="2"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="PatchWelcomeDlg" Condition="AI_PATCH" Ordering="1"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_PATCH" Ordering="3"/>
+    <ROW Dialog_="LicenseAgreementDlg" Control_="Back" Event="NewDialog" Argument="WelcomeDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="LicenseAgreementDlg" Control_="Next" Event="NewDialog" Argument="FolderDlg" Condition="AI_INSTALL AND IAgree = &quot;Yes&quot;" Ordering="1"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCreateFolderComponent">
+    <ROW Directory_="ScreenCapture_DIR" Component_="ScreenCapture"/>
+    <ROW Directory_="Samples_1_DIR" Component_="Samples"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCustActComponent">
+    <ROW Action="AI_DOWNGRADE" Type="19" Target="4010"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Type="65" Source="aicustact.dll" Target="PrepareUpgrade"/>
+    <ROW Action="AI_RESTORE_LOCATION" Type="65" Source="aicustact.dll" Target="RestoreLocation"/>
+    <ROW Action="AI_STORE_LOCATION" Type="51" Source="ARPINSTALLLOCATION" Target="[APPDIR]"/>
+    <ROW Action="Install.vbs" Type="22" Source="Install.vbs" Target="DummyCall"/>
+    <ROW Action="SET_APPDIR" Type="307" Source="APPDIR" Target="[ProgramFilesFolder][Manufacturer]\[ProductName]"/>
+    <ROW Action="SET_SHORTCUTDIR" Type="307" Source="SHORTCUTDIR" Target="[ProgramMenuFolder][ProductName]" MultiBuildTarget="DefaultBuild:[ProgramMenuFolder][Manufacturer]\[ProductName]"/>
+    <ROW Action="SET_TARGETDIR_TO_APPDIR" Type="51" Source="TARGETDIR" Target="[APPDIR]"/>
+    <ROW Action="UnInstall.vbs" Type="6" Source="UnInstall.vbs" Target="DummyCall"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiIconsComponent">
+    <ROW Name="SystemFolder_msiexec.exe" SourcePath="&lt;uninstall.ico&gt;" Index="0"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstExSeqComponent">
+    <ROW Action="AI_DOWNGRADE" Condition="AI_NEWERPRODUCTFOUND AND (UILevel &lt;&gt; 5)" Sequence="210"/>
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="740"/>
+    <ROW Action="AI_STORE_LOCATION" Condition="Not Installed" Sequence="1545"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Condition="AI_UPGRADE=&quot;No&quot; AND (Not Installed)" Sequence="1300"/>
+    <ROW Action="Install.vbs" Condition="NOT Installed" Sequence="6601"/>
+    <ROW Action="UnInstall.vbs" Condition="REMOVE=&quot;ALL&quot;" Sequence="1651"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstallUISequenceComponent">
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="740"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiLaunchConditionsComponent">
+    <ROW Condition="(AI_DOTNET10_SEARCH = &quot;3321-3705&quot;) OR (AI_DOTNET11_SEARCH = &quot;#1&quot;) OR (AI_DOTNET20_SEARCH = &quot;#1&quot;) OR (AI_DOTNET30_SEARCH = &quot;#1&quot;) OR (AI_DOTNET35_SEARCH = &quot;#1&quot;)" Description="[ProductName] can not be installed on systems with .NET Framework version smaller than [AI_MINDOTNETVERSION]" DescriptionLocId="AI.LaunchCondition.DotNET" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="PhysicalMemory &gt;= AI_MINRAM" Description="[ProductName] can not be installed on systems with less physical memory than [AI_MINRAM] MB." DescriptionLocId="AI.LaunchCondition.RAM" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="VersionNT" Description="[ProductName] can not be installed on [WindowsFamily9X]" DescriptionLocId="AI.LaunchCondition.No9X" IsPredefined="true" Builds="DefaultBuild"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiRegLocatorComponent">
+    <ROW Signature_="AI_DotNet10SearchSgn" Root="2" Key="SOFTWARE\Microsoft\.NETFramework\policy\v1.0" Name="3705" Type="2"/>
+    <ROW Signature_="AI_DotNet11SearchSgn" Root="2" Key="SOFTWARE\Microsoft\NET Framework Setup\NDP\v1.1.4322" Name="Install" Type="2"/>
+    <ROW Signature_="AI_DotNet20SearchSgn" Root="2" Key="SOFTWARE\Microsoft\NET Framework Setup\NDP\v2.0.50727" Name="Install" Type="2"/>
+    <ROW Signature_="AI_DotNet30SearchSgn" Root="2" Key="SOFTWARE\Microsoft\NET Framework Setup\NDP\v3.0\Setup" Name="InstallSuccess" Type="2"/>
+    <ROW Signature_="AI_DotNet35SearchSgn" Root="2" Key="SOFTWARE\Microsoft\NET Framework Setup\NDP\v3.5" Name="Install" Type="2"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiRegsComponent">
+    <ROW Registry="Assembly" Root="0" Key="CLSID\{40296F25-EFA9-3803-B18D-1C35D305029C}\InprocServer32" Name="Assembly" Value="KnowledgeInbox.ScreenCapture, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f1bcbf040f55c99d" Component_="KnowledgeInbox.ScreenCapture.dll"/>
+    <ROW Registry="Assembly_1" Root="0" Key="CLSID\{40296F25-EFA9-3803-B18D-1C35D305029C}\InprocServer32\1.0.0.0" Name="Assembly" Value="KnowledgeInbox.ScreenCapture, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f1bcbf040f55c99d" Component_="KnowledgeInbox.ScreenCapture.dll"/>
+    <ROW Registry="Assembly_2" Root="0" Key="CLSID\{1C979095-C9A2-30A7-9D55-0F777BDDFA65}\InprocServer32" Name="Assembly" Value="KnowledgeInbox.ScreenCapture, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f1bcbf040f55c99d" Component_="KnowledgeInbox.ScreenCapture.dll"/>
+    <ROW Registry="Assembly_3" Root="0" Key="CLSID\{1C979095-C9A2-30A7-9D55-0F777BDDFA65}\InprocServer32\1.0.0.0" Name="Assembly" Value="KnowledgeInbox.ScreenCapture, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f1bcbf040f55c99d" Component_="KnowledgeInbox.ScreenCapture.dll"/>
+    <ROW Registry="Assembly_4" Root="0" Key="CLSID\{EA4215C4-3DF4-4B3D-BE76-CB7183B48605}\InprocServer32" Name="Assembly" Value="KnowledgeInbox.ScreenCapture, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f1bcbf040f55c99d" Component_="KnowledgeInbox.ScreenCapture.dll"/>
+    <ROW Registry="Assembly_5" Root="0" Key="CLSID\{EA4215C4-3DF4-4B3D-BE76-CB7183B48605}\InprocServer32\1.0.0.0" Name="Assembly" Value="KnowledgeInbox.ScreenCapture, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f1bcbf040f55c99d" Component_="KnowledgeInbox.ScreenCapture.dll"/>
+    <ROW Registry="Assembly_6" Root="0" Key="Record\{E7145929-0044-3A17-929C-92C986957D49}\1.0.0.0" Name="Assembly" Value="KnowledgeInbox.ScreenCapture, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f1bcbf040f55c99d" Component_="KnowledgeInbox.ScreenCapture.dll"/>
+    <ROW Registry="Assembly_7" Root="0" Key="Record\{895EA3E9-4E37-3B6E-B4CD-994D9395ABE3}\1.0.0.0" Name="Assembly" Value="KnowledgeInbox.ScreenCapture, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f1bcbf040f55c99d" Component_="KnowledgeInbox.ScreenCapture.dll"/>
+    <ROW Registry="C8FE65_4EBB_45E7_B440_6E39B2CDBF29" Root="0" Key="CLSID\{40296F25-EFA9-3803-B18D-1C35D305029C}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}" Name="+" Component_="KnowledgeInbox.ScreenCapture.dll"/>
+    <ROW Registry="C8FE65_4EBB_45E7_B440_6E39B2CDBF29_1" Root="0" Key="CLSID\{1C979095-C9A2-30A7-9D55-0F777BDDFA65}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}" Name="+" Component_="KnowledgeInbox.ScreenCapture.dll"/>
+    <ROW Registry="C8FE65_4EBB_45E7_B440_6E39B2CDBF29_2" Root="0" Key="CLSID\{EA4215C4-3DF4-4B3D-BE76-CB7183B48605}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}" Name="+" Component_="KnowledgeInbox.ScreenCapture.dll"/>
+    <ROW Registry="Class" Root="0" Key="CLSID\{40296F25-EFA9-3803-B18D-1C35D305029C}\InprocServer32" Name="Class" Value="b" Component_="KnowledgeInbox.ScreenCapture.dll"/>
+    <ROW Registry="Class_1" Root="0" Key="CLSID\{40296F25-EFA9-3803-B18D-1C35D305029C}\InprocServer32\1.0.0.0" Name="Class" Value="b" Component_="KnowledgeInbox.ScreenCapture.dll"/>
+    <ROW Registry="Class_2" Root="0" Key="CLSID\{1C979095-C9A2-30A7-9D55-0F777BDDFA65}\InprocServer32" Name="Class" Value="ScreenCaptureAPI.WindowInfo" Component_="KnowledgeInbox.ScreenCapture.dll"/>
+    <ROW Registry="Class_3" Root="0" Key="CLSID\{1C979095-C9A2-30A7-9D55-0F777BDDFA65}\InprocServer32\1.0.0.0" Name="Class" Value="ScreenCaptureAPI.WindowInfo" Component_="KnowledgeInbox.ScreenCapture.dll"/>
+    <ROW Registry="Class_4" Root="0" Key="CLSID\{EA4215C4-3DF4-4B3D-BE76-CB7183B48605}\InprocServer32" Name="Class" Value="ScreenCaptureAPI.ScreenCapture" Component_="KnowledgeInbox.ScreenCapture.dll"/>
+    <ROW Registry="Class_5" Root="0" Key="CLSID\{EA4215C4-3DF4-4B3D-BE76-CB7183B48605}\InprocServer32\1.0.0.0" Name="Class" Value="ScreenCaptureAPI.ScreenCapture" Component_="KnowledgeInbox.ScreenCapture.dll"/>
+    <ROW Registry="Class_6" Root="0" Key="Record\{E7145929-0044-3A17-929C-92C986957D49}\1.0.0.0" Name="Class" Value="ScreenCaptureAPI.ScreenCapture+a" Component_="KnowledgeInbox.ScreenCapture.dll"/>
+    <ROW Registry="Class_7" Root="0" Key="Record\{895EA3E9-4E37-3B6E-B4CD-994D9395ABE3}\1.0.0.0" Name="Class" Value="ScreenCaptureAPI.ScreenCapture+CompleteCapture" Component_="KnowledgeInbox.ScreenCapture.dll"/>
+    <ROW Registry="ProgID" Root="1" Key="Software\Mercury Interactive\QuickTest Professional\MicTest\ReservedObjects\ScreenCapture" Name="ProgID" Value="KnowledgeInbox.ScreenCapture" Component_="ProgID"/>
+    <ROW Registry="ProgID_1" Root="-1" Key="Software\Mercury Interactive\QuickTest Professional\MicTest\ReservedObjects\ScreenCapture" Name="ProgID" Value="KnowledgeInbox.ScreenCapture" Component_="ProgID_1"/>
+    <ROW Registry="RuntimeVersion" Root="0" Key="CLSID\{40296F25-EFA9-3803-B18D-1C35D305029C}\InprocServer32" Name="RuntimeVersion" Value="v2.0.50727" Component_="KnowledgeInbox.ScreenCapture.dll"/>
+    <ROW Registry="RuntimeVersion_1" Root="0" Key="CLSID\{40296F25-EFA9-3803-B18D-1C35D305029C}\InprocServer32\1.0.0.0" Name="RuntimeVersion" Value="v2.0.50727" Component_="KnowledgeInbox.ScreenCapture.dll"/>
+    <ROW Registry="RuntimeVersion_2" Root="0" Key="CLSID\{1C979095-C9A2-30A7-9D55-0F777BDDFA65}\InprocServer32" Name="RuntimeVersion" Value="v2.0.50727" Component_="KnowledgeInbox.ScreenCapture.dll"/>
+    <ROW Registry="RuntimeVersion_3" Root="0" Key="CLSID\{1C979095-C9A2-30A7-9D55-0F777BDDFA65}\InprocServer32\1.0.0.0" Name="RuntimeVersion" Value="v2.0.50727" Component_="KnowledgeInbox.ScreenCapture.dll"/>
+    <ROW Registry="RuntimeVersion_4" Root="0" Key="CLSID\{EA4215C4-3DF4-4B3D-BE76-CB7183B48605}\InprocServer32" Name="RuntimeVersion" Value="v2.0.50727" Component_="KnowledgeInbox.ScreenCapture.dll"/>
+    <ROW Registry="RuntimeVersion_5" Root="0" Key="CLSID\{EA4215C4-3DF4-4B3D-BE76-CB7183B48605}\InprocServer32\1.0.0.0" Name="RuntimeVersion" Value="v2.0.50727" Component_="KnowledgeInbox.ScreenCapture.dll"/>
+    <ROW Registry="RuntimeVersion_6" Root="0" Key="Record\{E7145929-0044-3A17-929C-92C986957D49}\1.0.0.0" Name="RuntimeVersion" Value="v2.0.50727" Component_="KnowledgeInbox.ScreenCapture.dll"/>
+    <ROW Registry="RuntimeVersion_7" Root="0" Key="Record\{895EA3E9-4E37-3B6E-B4CD-994D9395ABE3}\1.0.0.0" Name="RuntimeVersion" Value="v2.0.50727" Component_="KnowledgeInbox.ScreenCapture.dll"/>
+    <ROW Registry="ThreadingModel" Root="0" Key="CLSID\{40296F25-EFA9-3803-B18D-1C35D305029C}\InprocServer32" Name="ThreadingModel" Value="Both" Component_="KnowledgeInbox.ScreenCapture.dll"/>
+    <ROW Registry="ThreadingModel_1" Root="0" Key="CLSID\{1C979095-C9A2-30A7-9D55-0F777BDDFA65}\InprocServer32" Name="ThreadingModel" Value="Both" Component_="KnowledgeInbox.ScreenCapture.dll"/>
+    <ROW Registry="ThreadingModel_2" Root="0" Key="CLSID\{EA4215C4-3DF4-4B3D-BE76-CB7183B48605}\InprocServer32" Name="ThreadingModel" Value="Both" Component_="KnowledgeInbox.ScreenCapture.dll"/>
+    <ROW Registry="UIName" Root="1" Key="Software\Mercury Interactive\QuickTest Professional\MicTest\ReservedObjects\ScreenCapture" Name="UIName" Value="ScreenCapture" Component_="UIName"/>
+    <ROW Registry="UIName_1" Root="-1" Key="Software\Mercury Interactive\QuickTest Professional\MicTest\ReservedObjects\ScreenCapture" Name="UIName" Value="ScreenCapture" Component_="UIName_1"/>
+    <ROW Registry="VisibleMode" Root="1" Key="Software\Mercury Interactive\QuickTest Professional\MicTest\ReservedObjects\ScreenCapture" Name="VisibleMode" Value="#2" Component_="VisibleMode"/>
+    <ROW Registry="VisibleMode_1" Root="-1" Key="Software\Mercury Interactive\QuickTest Professional\MicTest\ReservedObjects\ScreenCapture" Name="VisibleMode" Value="#2" Component_="VisibleMode_1"/>
+    <ROW Registry="_" Root="0" Key="b" Value="b" Component_="KnowledgeInbox.ScreenCapture.dll"/>
+    <ROW Registry="__1" Root="0" Key="b\CLSID" Value="{40296F25-EFA9-3803-B18D-1C35D305029C}" Component_="KnowledgeInbox.ScreenCapture.dll"/>
+    <ROW Registry="__11" Root="0" Key="CLSID\{1C979095-C9A2-30A7-9D55-0F777BDDFA65}\ProgId" Value="ScreenCaptureAPI.WindowInfo" Component_="KnowledgeInbox.ScreenCapture.dll"/>
+    <ROW Registry="__12" Root="0" Key="KnowledgeInbox.ScreenCapture" Value="ScreenCaptureAPI.ScreenCapture" Component_="KnowledgeInbox.ScreenCapture.dll"/>
+    <ROW Registry="__13" Root="0" Key="KnowledgeInbox.ScreenCapture\CLSID" Value="{EA4215C4-3DF4-4B3D-BE76-CB7183B48605}" Component_="KnowledgeInbox.ScreenCapture.dll"/>
+    <ROW Registry="__14" Root="0" Key="CLSID\{EA4215C4-3DF4-4B3D-BE76-CB7183B48605}" Value="ScreenCaptureAPI.ScreenCapture" Component_="KnowledgeInbox.ScreenCapture.dll"/>
+    <ROW Registry="__15" Root="0" Key="CLSID\{EA4215C4-3DF4-4B3D-BE76-CB7183B48605}\InprocServer32" Value="mscoree.dll" Component_="KnowledgeInbox.ScreenCapture.dll"/>
+    <ROW Registry="__17" Root="0" Key="CLSID\{EA4215C4-3DF4-4B3D-BE76-CB7183B48605}\ProgId" Value="KnowledgeInbox.ScreenCapture" Component_="KnowledgeInbox.ScreenCapture.dll"/>
+    <ROW Registry="__2" Root="0" Key="CLSID\{40296F25-EFA9-3803-B18D-1C35D305029C}" Value="b" Component_="KnowledgeInbox.ScreenCapture.dll"/>
+    <ROW Registry="__3" Root="0" Key="CLSID\{40296F25-EFA9-3803-B18D-1C35D305029C}\InprocServer32" Value="mscoree.dll" Component_="KnowledgeInbox.ScreenCapture.dll"/>
+    <ROW Registry="__5" Root="0" Key="CLSID\{40296F25-EFA9-3803-B18D-1C35D305029C}\ProgId" Value="b" Component_="KnowledgeInbox.ScreenCapture.dll"/>
+    <ROW Registry="__6" Root="0" Key="ScreenCaptureAPI.WindowInfo" Value="ScreenCaptureAPI.WindowInfo" Component_="KnowledgeInbox.ScreenCapture.dll"/>
+    <ROW Registry="__7" Root="0" Key="ScreenCaptureAPI.WindowInfo\CLSID" Value="{1C979095-C9A2-30A7-9D55-0F777BDDFA65}" Component_="KnowledgeInbox.ScreenCapture.dll"/>
+    <ROW Registry="__8" Root="0" Key="CLSID\{1C979095-C9A2-30A7-9D55-0F777BDDFA65}" Value="ScreenCaptureAPI.WindowInfo" Component_="KnowledgeInbox.ScreenCapture.dll"/>
+    <ROW Registry="__9" Root="0" Key="CLSID\{1C979095-C9A2-30A7-9D55-0F777BDDFA65}\InprocServer32" Value="mscoree.dll" Component_="KnowledgeInbox.ScreenCapture.dll"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiShortsComponent">
+    <ROW Shortcut="Capture_and_combine_images_into_one" Directory_="Samples_1_DIR" Name="Captur~1|Capture and combine images into one" Component_="Capture_and_combine_images_into_one.vbs" Target="[#Capture_and_combine_images_into_one.vbs]" Hotkey="0" IconIndex="0" ShowCmd="1" WkDir="Samples_DIR"/>
+    <ROW Shortcut="Capture_and_copy_image_to_clipboard" Directory_="Samples_1_DIR" Name="Captur~2|Capture and copy image to clipboard" Component_="Capture_and_copy_image_to_clipboard.vbs" Target="[#Capture_and_copy_image_to_clipboard.vbs]" Hotkey="0" IconIndex="0" ShowCmd="1" WkDir="Samples_DIR"/>
+    <ROW Shortcut="Capture_rectangular_area_of_a_desktop" Directory_="Samples_1_DIR" Name="Captur~3|Capture rectangular area of a desktop" Component_="Capture_rectangular_area_of_a_desktop.vbs" Target="[#Capture_rectangular_area_of_a_desktop.vbs]" Hotkey="0" IconIndex="0" ShowCmd="1" WkDir="Samples_DIR"/>
+    <ROW Shortcut="Capturing_IE_web_page_with_frames" Directory_="Samples_1_DIR" Name="Captur~9|Capturing IE web page with frames" Component_="Capturing_IE_web_page_with_frames.vbs" Target="[#Capturing_IE_web_page_with_frames.vbs]" Hotkey="0" IconIndex="0" ShowCmd="1" WkDir="Samples_DIR"/>
+    <ROW Shortcut="Capturing_IE_web_page_with_scrolling" Directory_="Samples_1_DIR" Name="Captur~6|Capturing IE web page with scrolling" Component_="Capturing_IE_web_page_with_scrolling.vbs" Target="[#Capturing_IE_web_page_with_scrolling.vbs]" Hotkey="0" IconIndex="0" ShowCmd="1" WkDir="Samples_DIR"/>
+    <ROW Shortcut="Capturing_IE_web_page_with_specific_object" Directory_="Samples_1_DIR" Name="Captur~8|Capturing IE web page with specific object" Component_="Capturing_IE_web_page_with_specific_object.vbs" Target="[#Capturing_IE_web_page_with_specific_object.vbs]" Hotkey="0" IconIndex="0" ShowCmd="1" WkDir="Samples_DIR"/>
+    <ROW Shortcut="Capturing_all_open_notepad_windows" Directory_="Samples_1_DIR" Name="Captur~4|Capturing all open notepad windows" Component_="Capturing_all_open_notepad_windows.vbs" Target="[#Capturing_all_open_notepad_windows.vbs]" Hotkey="0" IconIndex="0" ShowCmd="1" WkDir="Samples_DIR"/>
+    <ROW Shortcut="Capturing_currently_active_window" Directory_="Samples_1_DIR" Name="Captur~5|Capturing currently active window" Component_="Capturing_currently_active_window.vbs" Target="[#Capturing_currently_active_window.vbs]" Hotkey="0" IconIndex="0" ShowCmd="1" WkDir="Samples_DIR"/>
+    <ROW Shortcut="Capturing_the_Desktop_Image" Directory_="Samples_1_DIR" Name="Captur~7|Capturing the Desktop Image" Component_="Capturing_the_Desktop_Image.vbs" Target="[#Capturing_the_Desktop_Image.vbs]" Hotkey="0" IconIndex="0" ShowCmd="1" WkDir="Samples_DIR"/>
+    <ROW Shortcut="Compare_two_images" Directory_="Samples_1_DIR" Name="Compar~1|Compare two images" Component_="Compare_two_images.vbs" Target="[#Compare_two_images.vbs]" Hotkey="0" IconIndex="0" ShowCmd="1" WkDir="Samples_DIR"/>
+    <ROW Shortcut="Convert_image_from_one_format_to_another" Directory_="Samples_1_DIR" Name="Conver~1|Convert image from one format to another" Component_="Convert_image_from_one_format_to_another.vbs" Target="[#Convert_image_from_one_format_to_another.vbs]" Hotkey="0" IconIndex="0" ShowCmd="1" WkDir="Samples_DIR"/>
+    <ROW Shortcut="Create_a_new_bitmap_with_text" Directory_="Samples_1_DIR" Name="Create~1|Create a new bitmap with text" Component_="Create_a_new_bitmap_with_text.vbs" Target="[#Create_a_new_bitmap_with_text.vbs]" Hotkey="0" IconIndex="0" ShowCmd="1" WkDir="Samples_DIR"/>
+    <ROW Shortcut="End_user_license_agreement" Directory_="ScreenCapture_DIR" Name="Enduse~1|End user license agreement" Component_="eula.rtf" Target="[#eula.rtf]" Description="EULA - End user license agreement" Hotkey="0" IconIndex="0" ShowCmd="1" WkDir="APPDIR"/>
+    <ROW Shortcut="Enumerate_frames_document_on_a_web_page" Directory_="Samples_1_DIR" Name="Enumer~1|Enumerate frames document on a web page" Component_="Enumerate_frames_document_on_a_web_page.vbs" Target="[#Enumerate_frames_document_on_a_web_page.vbs]" Hotkey="0" IconIndex="0" ShowCmd="1" WkDir="Samples_DIR"/>
+    <ROW Shortcut="Get_current_cursor_position" Directory_="Samples_1_DIR" Name="Getcur~1|Get current cursor position" Component_="Get_current_cursor_position.vbs" Target="[#Get_current_cursor_position.vbs]" Hotkey="0" IconIndex="0" ShowCmd="1" WkDir="Samples_DIR"/>
+    <ROW Shortcut="Getting_IE_object_from_any_property" Directory_="Samples_1_DIR" Name="Gettin~2|Getting IE object from any property" Component_="Getting_IE_object_from_any_property.vbs" Target="[#Getting_IE_object_from_any_property.vbs]" Hotkey="0" IconIndex="0" ShowCmd="1" WkDir="Samples_DIR"/>
+    <ROW Shortcut="Getting_IE_object_from_window_handle" Directory_="Samples_1_DIR" Name="Gettin~1|Getting IE object from window handle" Component_="Getting_IE_object_from_window_handle.vbs" Target="[#Getting_IE_object_from_window_handle.vbs]" Hotkey="0" IconIndex="0" ShowCmd="1" WkDir="Samples_DIR"/>
+    <ROW Shortcut="Saving_an_image_at_a_user_selected_location" Directory_="Samples_1_DIR" Name="Saving~1|Saving an image at a user selected location" Component_="Saving_an_image_at_a_user_selected_location.vbs" Target="[#Saving_an_image_at_a_user_selected_location.vbs]" Hotkey="0" IconIndex="0" ShowCmd="1" WkDir="Samples_DIR"/>
+    <ROW Shortcut="ScreenCapture_Help" Directory_="ScreenCapture_DIR" Name="Screen~1|ScreenCapture Help" Component_="ScreenCapture.chm" Target="[#ScreenCapture.chm]" Description="KnowledgeInbox Screen capture help" Hotkey="0" IconIndex="0" ShowCmd="1" WkDir="APPDIR"/>
+    <ROW Shortcut="Uninstall" Directory_="ScreenCapture_DIR" Name="Uninst~1|Uninstall" Component_="Capture_and_combine_images_into_one.vbs" Target="[SystemFolder]msiexec.exe" Arguments="/x [ProductCode]" Hotkey="0" Icon_="SystemFolder_msiexec.exe" IconIndex="0" ShowCmd="1"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiUpgradeComponent">
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMax="[|ProductVersion]" Attributes="1025" ActionProperty="OLDPRODUCTS"/>
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="[|ProductVersion]" Attributes="2" ActionProperty="AI_NEWERPRODUCTFOUND"/>
+  </COMPONENT>
+</DOCUMENT>

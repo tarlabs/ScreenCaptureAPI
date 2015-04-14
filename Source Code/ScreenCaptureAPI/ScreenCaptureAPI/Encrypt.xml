@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE dotfuscator SYSTEM "http://www.preemptive.com/dotfuscator/dtd/dotfuscator_v2.1.dtd">
+<dotfuscator version="2.1">
+  <!--This is application generated code. Do not edit manually.-->
+  <input>
+    <asmlist>
+      <inputassembly>
+        <file dir="C:\Users\tarunlalwani\Desktop\My Projects\ScreenCapture\Source Code\ScreenCaptureAPI\ScreenCaptureAPI\bin\Release" name="KnowledgeInbox.ScreenCapture.dll" />
+      </inputassembly>
+    </asmlist>
+  </input>
+  <output>
+    <file dir="${configdir}\Dotfuscated" />
+  </output>
+  <renaming>
+    <excludelist>
+      <type name="ScreenCaptureAPI._ScreenCapture2">
+        <method name="CaptureIEFrames" signature="object,string,string,bool,bool" />
+        <method name="CaptureIEObject" signature="object,string,string,bool,bool,bool" />
+        <method name="EnumIEFramesDocument" signature="object" />
+        <method name="GetIEObjectFromProperty" signature="string,object" />
+      </type>
+      <type name="ScreenCaptureAPI._ScreenCapture">
+        <method name="AddTextToImage" signature="object,string" />
+        <method name="CaptureActiveWindow" signature="string,bool,string" />
+        <method name="CaptureDesktop" signature="string,string" />
+        <method name="CaptureDesktopRect" signature="int64,int64,int64,int64,string,string" />
+        <method name="CaptureIE" signature="object,string,string,bool,bool" />
+        <method name="CaptureIEFrames" signature="object,string,string,bool,bool" />
+        <method name="CaptureIEObject" signature="object,string,string,bool,bool,bool" />
+        <method name="CaptureWindow" signature="int64,string,bool,string,bool,bool" />
+        <method name="CaptureWindowRect" signature="int64,int64,int64,int64,int64,string,string" />
+        <method name="CombineImages" signature="object,object,string,int32,int32" />
+        <method name="CompareImages" signature="object,object,string,bool" />
+        <method name="ConvertImage" signature="string,string,bool" />
+        <method name="EnumIEFramesDocument" signature="object" />
+        <method name="FindWindowLike" signature="string,string" />
+        <method name="get_ActivateWindowOnCapture" signature="" />
+        <method name="get_CaptureIEFromCurrentPos" signature="" />
+        <method name="get_TextFontName" signature="" />
+        <method name="get_TextFontSize" signature="" />
+        <method name="get_TextHeight" signature="" />
+        <method name="get_TextPos" signature="" />
+        <method name="get_WaitBeforeCapture" signature="" />
+        <method name="GetCursorPosition" signature="object&amp;,object&amp;" />
+        <method name="GetIEObjectFromHWND" signature="int64" />
+        <method name="GetIEObjectFromProperty" signature="string,object" />
+        <method name="GetNewBitmap" signature="int32,int32" />
+        <method name="GetRootWindow" signature="int64" />
+        <method name="SaveImageToFile" signature="object,string" />
+        <method name="set_ActivateWindowOnCapture" signature="bool" />
+        <method name="set_CaptureIEFromCurrentPos" signature="bool" />
+        <method name="set_TextFontName" signature="string" />
+        <method name="set_TextFontSize" signature="int32" />
+        <method name="set_TextHeight" signature="int64" />
+        <method name="set_TextPos" signature="int64" />
+        <method name="set_WaitBeforeCapture" signature="int64" />
+        <method name="CaptureDesktopRect" signature="int32,int32,int32,int32,string,string" />
+        <method name="CaptureWindow" signature="int32,string,bool,string,bool,bool" />
+        <method name="CaptureWindowRect" signature="int32,int32,int32,int32,int32,string,string" />
+        <method name="GetIEObjectFromHWND" signature="int32" />
+        <method name="GetRootWindow" signature="int32" />
+        <method name="set_TextHeight" signature="int32" />
+        <method name="set_TextPos" signature="int32" />
+        <method name="set_WaitBeforeCapture" signature="int32" />
+      </type>
+      <type name="ScreenCaptureAPI.ScreenCapture">
+        <method name="AddTextToImage" signature="object,string" />
+        <method name="CaptureActiveWindow" signature="string,bool,string" />
+        <method name="CaptureDesktop" signature="string,string" />
+        <method name="CaptureDesktopRect" signature="int64,int64,int64,int64,string,string" />
+        <method name="CaptureIE" signature="object,string,string,bool,bool" />
+        <method name="CaptureIEFrames" signature="object,string,string,bool,bool" />
+        <method name="CaptureIEObject" signature="object,string,string,bool,bool,bool" />
+        <method name="CaptureWindow" signature="int64,string,bool,string,bool,bool" />
+        <method name="CaptureWindowRect" signature="int64,int64,int64,int64,int64,string,string" />
+        <method name="CombineImages" signature="object,object,string,int32,int32" />
+        <method name="CompareImages" signature="object,object,string,bool" />
+        <method name="ConvertImage" signature="string,string,bool" />
+        <method name="EnumIEFramesDocument" signature="object" />
+        <method name="FindWindowLike" signature="string,string" />
+        <method name="get_ActivateWindowOnCapture" signature="" />
+        <method name="get_CaptureIEFromCurrentPos" signature="" />
+        <method name="get_TextFontName" signature="" />
+        <method name="get_TextFontSize" signature="" />
+        <method name="get_TextHeight" signature="" />
+        <method name="get_TextPos" signature="" />
+        <method name="get_WaitBeforeCapture" signature="" />
+        <method name="GetCursorPosition" signature="object&amp;,object&amp;" />
+        <method name="GetIEObjectFromHWND" signature="int64" />
+        <method name="GetIEObjectFromProperty" signature="string,object" />
+        <method name="GetNewBitmap" signature="int32,int32" />
+        <method name="GetRootWindow" signature="int64" />
+        <method name="SaveImageToFile" signature="object,string" />
+        <method name="set_ActivateWindowOnCapture" signature="bool" />
+        <method name="set_CaptureIEFromCurrentPos" signature="bool" />
+        <method name="set_TextFontName" signature="string" />
+        <method name="set_TextFontSize" signature="int32" />
+        <method name="set_TextHeight" signature="int64" />
+        <method name="set_TextPos" signature="int64" />
+        <method name="set_WaitBeforeCapture" signature="int64" />
+        <method name="CaptureDesktopRect" signature="int32,int32,int32,int32,string,string" />
+        <method name="CaptureWindow" signature="int32,string,bool,string,bool,bool" />
+        <method name="CaptureWindowRect" signature="int32,int32,int32,int32,int32,string,string" />
+        <method name="GetIEObjectFromHWND" signature="int32" />
+        <method name="GetRootWindow" signature="int32" />
+        <method name="set_TextHeight" signature="int32" />
+        <method name="set_TextPos" signature="int32" />
+        <method name="set_WaitBeforeCapture" signature="int32" />
+        <field name="mActivateWindowOnCapture" />
+        <field name="mCaptureIEFromCurrentPos" />
+        <field name="MERGE_Image1BottomImage2" />
+        <field name="MERGE_Image1LeftImage2" />
+        <field name="MERGE_Image1RightImage2" />
+        <field name="MERGE_Image1TopImage2" />
+        <field name="mTextFontName" />
+        <field name="mTextFontSize" />
+        <field name="mTextHeight" />
+        <field name="mTextPos" />
+        <field name="mWaitBeforeCapture" />
+      </type>
+      <type name="ScreenCaptureAPI.ScreenCapture/CompleteCapture">
+        <field name="height" />
+        <field name="PartialCaptures" />
+        <field name="width" />
+      </type>
+      <type name="ScreenCaptureAPI.WindowInfo">
+        <field name="ClassName" />
+        <field name="hWnd" />
+        <field name="Title" />
+      </type>
+      <type name="ScreenCaptureAPI.My.MyProject/ThreadSafeObjectProvider`1&lt;T&gt;" />
+    </excludelist>
+    <mapping>
+      <mapoutput overwrite="false">
+        <file dir="${configdir}\Dotfuscated" name="Map.xml" />
+      </mapoutput>
+    </mapping>
+  </renaming>
+</dotfuscator>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<XML_DIZ_INFO>
+	<MASTER_PAD_VERSION_INFO>
+		<MASTER_PAD_VERSION>3.01</MASTER_PAD_VERSION>
+		<MASTER_PAD_EDITOR>PADGen 3.0.1.35 http://www.padgen.org</MASTER_PAD_EDITOR>
+		<MASTER_PAD_INFO>Portable Application Description, or PAD for short, is a data set that is used by shareware authors to disseminate information to anyone interested in their software products. To find out more go to http://www.asp-shareware.org/pad</MASTER_PAD_INFO>
+	</MASTER_PAD_VERSION_INFO>
+	<Company_Info>
+		<Company_Name>KnowledgeInbox</Company_Name>
+		<Address_1 />
+		<Address_2 />
+		<City_Town />
+		<State_Province />
+		<Zip_Postal_Code />
+		<Country />
+		<Company_WebSite_URL>http://www.knowledgeinbox.com</Company_WebSite_URL>
+		<Contact_Info>
+			<Author_First_Name>Tarun</Author_First_Name>
+			<Author_Last_Name>Lalwani</Author_Last_Name>
+			<Author_Email>tarunlalwani@gmail.com</Author_Email>
+			<Contact_First_Name>Tarun</Contact_First_Name>
+			<Contact_Last_Name>Lalwani</Contact_Last_Name>
+			<Contact_Email>tarunlalwani@gmail.com</Contact_Email>
+		</Contact_Info>
+		<Support_Info>
+			<Sales_Email>tarunlalwani@gmail.com</Sales_Email>
+			<Support_Email>tarunlalwani@gmail.com</Support_Email>
+			<General_Email>tarunlalwani@gmail.com</General_Email>
+			<Sales_Phone>Not Available</Sales_Phone>
+			<Support_Phone>Not Available</Support_Phone>
+			<General_Phone>Not Available</General_Phone>
+			<Fax_Phone>Not Available</Fax_Phone>
+		</Support_Info>
+	</Company_Info>
+	<Program_Info>
+		<Program_Name>Screen Capture API</Program_Name>
+		<Program_Version>1.0.0</Program_Version>
+		<Program_Release_Month>03</Program_Release_Month>
+		<Program_Release_Day>26</Program_Release_Day>
+		<Program_Release_Year>2008</Program_Release_Year>
+		<Program_Cost_Dollars />
+		<Program_Cost_Other_Code />
+		<Program_Cost_Other />
+		<Program_Type>Freeware</Program_Type>
+		<Program_Release_Status>New Release</Program_Release_Status>
+		<Program_Install_Support>Install and Uninstall</Program_Install_Support>
+		<Program_OS_Support>Windows2000,WinXP,Windows2003,Windows Vista Starter,Windows Vista Home Basic,Windows Vista Home Premium,Windows Vista Business,Windows Vista Enterprise,Windows Vista Ultimate</Program_OS_Support>
+		<Program_Language>English</Program_Language>
+		<Program_Change_Info />
+		<Program_Specific_Category>Graphics</Program_Specific_Category>
+		<Program_Category_Class>Graphic Apps::Screen Capture</Program_Category_Class>
+		<Program_System_Requirements />
+		<File_Info>
+			<File_Size_Bytes>252928</File_Size_Bytes>
+			<File_Size_K>247</File_Size_K>
+			<File_Size_MB>0.24</File_Size_MB>
+		</File_Info>
+		<Expire_Info>
+			<Has_Expire_Info>N</Has_Expire_Info>
+			<Expire_Count />
+			<Expire_Based_On>Days</Expire_Based_On>
+			<Expire_Other_Info />
+			<Expire_Month />
+			<Expire_Day />
+			<Expire_Year />
+		</Expire_Info>
+	</Program_Info>
+	<Program_Descriptions>
+		<English>
+			<Keywords>Screen Capture, Scrolling, Complete web page, complete</Keywords>
+			<Char_Desc_45>KnowledgeInbox Screen Capture API </Char_Desc_45>
+			<Char_Desc_80>KnowledgeInbox Screen Capture API is a COM based library</Char_Desc_80>
+			<Char_Desc_250>KnowledgeInbox Screen Capture API is a COM based library. The library provides you with various methods for capturing, combining and comparing screenshots</Char_Desc_250>
+			<Char_Desc_450>KnowledgeInbox Screen Capture API is a COM based library. The library provides you with various methods for capturing, combining and comparing screenshots. Features
+·     Capture desktop screen
+·      Capture active window
+·      Capture a region on screen
+·      Capture a window using window handle
+·      Capture a region of window using window handle
+·      Convert image from one format to another format
+·      Capturing complete IE page</Char_Desc_450>
+			<Char_Desc_2000>KnowledgeInbox Screen Capture API is a COM based library. The library provides you with various methods for capturing, combining and comparing screenshots.
+
+
+Features
+
+·      Capture desktop screen
+·      Capture active window
+·      Capture a region on screen
+·      Capture a window using window handle
+·      Capture a region of window using window handle
+·      Convert image from one format to another format
+·      Get Internet Explorer object from window handle
+·      Capture complete web pages in Internet explorer using vertical and horizontal screen captures.
+·      Compare two images and get difference between them
+·      Combine different images
+·      Complete documentation provided
+·      Compatible with all COM supporting scripting languages
+·      Many sample VBScript provided for various methods</Char_Desc_2000>
+		</English>
+	</Program_Descriptions>
+	<Web_Info>
+		<Application_URLs>
+			<Application_Info_URL>http://www.knowledgeinbox.com/documents/screencapture.html</Application_Info_URL>
+			<Application_Order_URL>http://www.knowledgeinbox.com/documents/screencapture.html</Application_Order_URL>
+			<Application_Screenshot_URL>http://www.knowledgeinbox.com/documents/screencapture.html</Application_Screenshot_URL>
+			<Application_Icon_URL />
+			<Application_XML_File_URL />
+		</Application_URLs>
+		<Download_URLs>
+			<Primary_Download_URL>http://www.knowledgeinbox.com/documents/screencapture.html</Primary_Download_URL>
+			<Secondary_Download_URL />
+			<Additional_Download_URL_1 />
+			<Additional_Download_URL_2 />
+		</Download_URLs>
+	</Web_Info>
+	<Permissions>
+		<Distribution_Permissions />
+		<EULA>Please read the following terms and conditions carefully before using this SOFTWARE
+PRODUCT. Your use, distribution or installation of this copy of "SCREENCAPTURE API" 
+indicates your acceptance of this License.
+
+SOFTWARE PRODUCT here means Software, image files, all accompanying files, data 
+and materials received with your order of "SCREENCAPTURE API".
+
+If you do not agree to any of the terms of this License, then do not install, 
+distribute or use the SOFTWARE PRODUCT. 
+
+This SOFTWARE PRODUCT is FREE for personal use only and may be installed and used by 
+on only one computer. Its component parts may not be separated for use on more 
+than one computer. For commercial use of the this SOFTWARE PRODUCT please contact author.
+
+All components accompanying the software are copyrighted 
+by KNOWLEDGEINBOX and may not be taken apart, modified, used or published with other 
+software or means except with the SOFTWARE PRODUCT software and may not be 
+distributed or copied in any manner.
+
+This SOFTWARE PRODUCT, all accompanying files, data and materials, are distributed 
+"AS IS" and with no warranties of any kind, whether express or implied. The user 
+must assume all risk of using the program. This disclaimer of warranty constitutes 
+an essential part of the agreement. 
+
+Any liability of KNOWLEDGEINBOX will be limited exclusively to refund of purchase 
+price. In addition, in no event shall KNOWLEDGEINBOX, or its principals, shareholders, 
+officers, employees, affiliates, contractors, subsidiaries, or parent organizations,
+be liable for any incidental, consequential, punitive or any other damages whatsoever 
+relating to the use of SOFTWARE PRODUCT.
+
+In addition, in no event does KNOWLEDGEINBOX authorize you to use this SOFTWARE PRODUCT 
+in applications or systems where SOFTWARE PRODUCT 's failure to perform can reasonably 
+be expected to result in a physical injury, or in loss of life. Any such use by you is 
+entirely at your own risk, and you agree to hold KNOWLEDGEINBOX harmless from any claims 
+or losses relating to such unauthorized use.
+
+This Agreement constitutes the entire statement of the Agreement between the parties on 
+the subject matter, and merges and supersedes all other or prior understandings, 
+purchase orders, agreements and arrangements. 
+
+KNOWLEDGEINBOX the owner of the copyright of this SOFTWARE PRODUCT, all of its derivatives,
+title and accompanying materials are the exclusive property of KNOWLEDGEINBOX. All rights 
+of any kind, which are not expressly granted in this License, are entirely and 
+exclusively reserved to and by KNOWLEDGEINBOX. You may not rent, lease, transfer, modify, 
+translate, reverse engineer, de-compile, disassemble or create derivative works based 
+on this SOFTWARE PRODUCT. You may not make access to SOFTWARE PRODUCT available to others 
+in connection with a service bureau, application service provider, or similar business, 
+or use this SOFTWARE PRODUCT in a business to provide file compression, decompression, 
+or conversion services to others. There are no third party beneficiaries of any promises, 
+obligations or representations made by KNOWLEDGEINBOX herein.
+
+You may not disclose to other persons the data or techniques relating to this SOFTWARE 
+PRODUCT that you know or should know that it is a trade secret of the KNOWLEDGEINBOX in 
+any manner that will cause damage to KNOWLEDGEINBOX.
+
+This SOFTWARE PRODUCT and all services provided may be used for lawful purposes only. 
+Transmission, storage, or presentation of any information, data or material in 
+violation of any Country, State or City law is strictly prohibited. This includes, 
+but is not limited to: copyrighted material, material we judge to be threatening or 
+obscene, or material protected by trade secret and other statute. You agree to indemnify 
+and hold KNOWLEDGEINBOX harmless from any claims resulting from the use of this SOFTWARE 
+PRODUCT, which may damage any other party.
+
+</EULA>
+	</Permissions>
+</XML_DIZ_INFO>

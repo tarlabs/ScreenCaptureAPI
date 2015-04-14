@@ -1,0 +1,21 @@
+<html><head>
+   <title>Capturing all open notepad windows</title>
+   <meta name="generator"  content="HelpMaker" >
+   <meta name="keywords"  content="System Requirements," ></head>
+<body bgcolor="FFFCEA" >
+<table width="100%"  border="0"  cellspacing="0"  cellpadding="2"  bgcolor="C0C0C0" >
+  <tr>
+    <td align="left" >
+      <html><head><title></title></head><body><div align="left" ><font face="Verdana"  size="7" ><span style=" font-size:12pt" ><b>Capturing all open notepad windows</b></span></font></div></body></html>
+
+    </td>
+    <td align="right" >
+      <font face="Arial"  size="2" >
+        <a href="capturingcurrentlyactivewindow.html">Previous</a>&nbsp;<a href="overview.html">Top</a>&nbsp;<a href="capturingiewebpagewithscrolling.html">Next</a>
+      </font>
+    </td>
+  </tr></table>
+<hr><html><head><title></title></head><body><div align="left" ><font face="Consolas"  color="#008000" ><span style=" font-size:10pt" >'Create the screen capture object</span></font></div><div align="left" ><font face="Consolas"  color="#0000ff" ><span style=" font-size:10pt" >Set</span></font><font face="Consolas" ><span style=" font-size:10pt" > oScreenCapture = </span></font><font face="Consolas"  color="#0000ff" ><span style=" font-size:10pt" >CreateObject</span></font><font face="Consolas" ><span style=" font-size:10pt" >(</span></font><font face="Consolas"  color="#ff0000" ><span style=" font-size:10pt" >&quot;KnowledgeInbox.ScreenCapture&quot;</span></font><font face="Consolas" ><span style=" font-size:10pt" >)</span></font></div><div align="left" ><font face="Consolas" ><span style=" font-size:10pt" ><br></span></font></div><div align="left" ><font face="Consolas"  color="#008000" ><span style=" font-size:10pt" >'Get all windows with notepad title</span></font></div><div align="left" ><font face="Consolas"  color="#0000ff" ><span style=" font-size:10pt" >Set</span></font><font face="Consolas" ><span style=" font-size:10pt" > allNotePads = oScreenCapture.FindWindowLike (</span></font><font face="Consolas"  color="#ff0000" ><span style=" font-size:10pt" >&quot;*notepad*&quot;</span></font><font face="Consolas" ><span style=" font-size:10pt" >)</span></font></div><div align="left" ><font face="Consolas" ><span style=" font-size:10pt" ><br></span></font></div><div align="left" ><font face="Consolas"  color="#008000" ><span style=" font-size:10pt" >'Capture each notepad window</span></font></div><div align="left" ><font face="Consolas"  color="#0000ff" ><span style=" font-size:10pt" >For</span></font><font face="Consolas" ><span style=" font-size:10pt" > </span></font><font face="Consolas"  color="#0000ff" ><span style=" font-size:10pt" >Each</span></font><font face="Consolas" ><span style=" font-size:10pt" > oNotePad </span></font><font face="Consolas"  color="#0000ff" ><span style=" font-size:10pt" >In</span></font><font face="Consolas" ><span style=" font-size:10pt" > allNotepads</span></font></div><div align="left" ><font face="Consolas" ><span style=" font-size:10pt" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;oScreenCapture.CaptureWindow oNotepad.hwnd,</span></font><font face="Consolas"  color="#ff0000" ><span style=" font-size:10pt" >&quot;C:\&quot;</span></font><font face="Consolas" ><span style=" font-size:10pt" > &amp; oNotepad.Title 
+&amp; </span></font><font face="Consolas"  color="#ff0000" ><span style=" font-size:10pt" >&quot;.png&quot;</span></font></div><div align="left" ><font face="Consolas"  color="#0000ff" ><span style=" font-size:10pt" >Next</span></font></div><div align="left" ><font face="Consolas" ><span style=" font-size:10pt" ><br></span></font></div><div align="left" ><font face="Consolas"  color="#008000" ><span style=" font-size:10pt" >'Destroy the object</span></font></div><div align="left" ><font face="Consolas"  color="#0000ff" ><span style=" font-size:10pt" >Set</span></font><font face="Consolas" ><span style=" font-size:10pt" > oScreenCapture = </span></font><font face="Consolas"  color="#0000ff" ><span style=" font-size:10pt" >Nothing</span></font></div></body></html>
+
+</body></html>
